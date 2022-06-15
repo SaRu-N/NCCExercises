@@ -1,0 +1,15 @@
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/obj/Debug/net6.0/NCCLAB.csproj.AssemblyReference.cache
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/obj/Debug/net6.0/NCCLAB.GeneratedMSBuildEditorConfig.editorconfig
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/obj/Debug/net6.0/NCCLAB.AssemblyInfoInputs.cache
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/obj/Debug/net6.0/NCCLAB.AssemblyInfo.cs
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/obj/Debug/net6.0/NCCLAB.csproj.CoreCompileInputs.cache
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/bin/Debug/net6.0/NCCLAB
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/bin/Debug/net6.0/NCCLAB.deps.json
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/bin/Debug/net6.0/NCCLAB.runtimeconfig.json
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/bin/Debug/net6.0/NCCLAB.dll
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/bin/Debug/net6.0/NCCLAB.pdb
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/obj/Debug/net6.0/NCCLAB.dll
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/obj/Debug/net6.0/refint/NCCLAB.dll
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/obj/Debug/net6.0/NCCLAB.pdb
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/obj/Debug/net6.0/NCCLAB.genruntimeconfig.cache
+/home/saru/Documents/SixthSEm/NCC/NCCLAB/NCCLAB/obj/Debug/net6.0/ref/NCCLAB.dll
