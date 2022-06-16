@@ -20,6 +20,9 @@ namespace NCClabs
             // MultipleInheritance();
             // StackImplementation();
             // DelegateExample();
+            // ExceptionHandlingExample();
+            // ParallelProgrammingExample();
+
                
      System.Console.WriteLine("Do you want to continue?(Y/N):");
         choice= Console.ReadLine();
@@ -307,6 +310,31 @@ private static void DelegateExample()
 private static void Ds_MathHandler(int a, int b)
         {
             Console.WriteLine($"Function running from program.cs with parameters a={a} and b={b} ");
+        }
+ private static void ExceptionHandlingExample()
+        {
+            try
+            {
+                // MathOne m1 = new MathOne();
+                Test t1 = new Test();
+                t1.Add(2, 4);
+                Console.WriteLine("Enter a number");
+                var num = Convert.ToInt32(Console.ReadLine());
+                t1.Add(num, 5);
+            }
+            catch (CustomException ex)
+            {
+                Console.WriteLine("Custom Exception Occured");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+ private static void ParallelProgrammingExample()
+        {
+            ParallelProgramming pp = new ParallelProgramming();
+            pp.Run();
         }
 }
 }
