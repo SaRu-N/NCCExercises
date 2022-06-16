@@ -14,7 +14,11 @@ namespace NCClabs
             // FunctionsExample();
             //  LoopingStatements();
             //  ShapesExample();
-            ShapesExampleV2();
+            // ShapesExampleV2();
+            // PartialExample()
+            // InheritenceExample()
+            // MultipleInheritance();
+            StackImplementation();
                
      System.Console.WriteLine("Do you want to continue?(Y/N):");
         choice= Console.ReadLine();
@@ -222,5 +226,68 @@ private static void ShapesExample()
             shape.Area();
             shape.Perimeter();
         }
+ private static void PartialExample()
+        {
+            ClassOne cOne = new ClassOne();
+            // cOne.FunctionOne();
+            cOne.FunctionTwo();
+        }  
+ private static void InheritenceExample()
+        {
+            LivingThings l1 = new LivingThings();
+            LivingThings l2 = new LivingThings(10);
+            Animal a1 = new Animal();
+            Animal a2 = new Animal(20);
+            Plants p1 = new Plants();
+            Plants p2 = new Plants(30);
+            Vertibrates v1 = new Vertibrates();
+            l1.PublicVariable = 10;
+        }
+ static  void MultipleInheritance(){  
+          System.Console.WriteLine("Multiple Inheritance");
+            
+                // yarshagumba  y1 =new yarshagumba();
+                // y1.grow();
+                // y1.eat();
+                Calculation c = new Calculation();    
+                c.add(20, 10);    
+                c.sub(20, 10);        
+                Console.WriteLine("Addition: " + c.result1);    
+                Console.WriteLine("Substraction: " + c.result2); 
+        }  
+ private static void StackImplementation()
+        {
+            var cs = new CustomStack();
+            //CustomStackTemplated<LivingThings> cs1 = new CustomStackTemplated<LivingThings>();
+            //cs1.Push(new Animal());
+
+            cs.Push(10);
+            cs.Push(3);
+            cs.Pop();
+            cs.Push(4);
+            cs.Push(7);
+            // cs.Push(6);
+            // cs.Push(9);
+            // cs.Push(10);
+
+            cs.Pop();
+            cs.Pop();
+            cs.Pop();
+            // cs.Pop();
+            // cs.Pop();
+            // cs.Pop();
+            // cs.Pop();
+            // cs.Pop();
+
+            CustomStackObjects csObj = new CustomStackObjects();
+            csObj.Push(1);
+            csObj.Push("");
+            csObj.Push(new Circle());
+
+            LivingThings.TemplatedFunction<int, string, float>(1, "", 2f);
+            decimal d = 2.3m;
+            LivingThings.TemplatedFunction<string, IShape, float>("some string", new Circle(), (float)d);
+        }
+
 }
 }
