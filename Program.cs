@@ -22,6 +22,7 @@ namespace NCClabs
             // DelegateExample();
             // ExceptionHandlingExample();
             // ParallelProgrammingExample();
+             QueueExample();
 
                
      System.Console.WriteLine("Do you want to continue?(Y/N):");
@@ -336,5 +337,47 @@ private static void Ds_MathHandler(int a, int b)
             ParallelProgramming pp = new ParallelProgramming();
             pp.Run();
         }
+  public static void QueueExample(){
+        Queue <int> Q= new Queue <int>();
+        // int ch;
+        // System.Console.WriteLine("Enter your choice:\n1.insert\n2.delete\n3.display");
+        // ch= Convert.ToInt32(Console.ReadLine());
+        // switch(ch){
+        //     case 1:
+        //         System.Console.WriteLine("Enter the element to be inserted:");
+        //         int data=Convert.ToInt32(Console.ReadLine());
+        //         Q.enqueue(data);
+        //         // Q.enqueue(2);
+        //         // Q.enqueue(3);
+        //         // Q.enqueue(4);
+        //         // Q.enqueue(5);
+        //         break;
+        //     case 2:
+        //         Q.dequeue();
+        //         break;
+        //     case 3:
+        //         System.Console.WriteLine("Items are : ");
+        //         Q.display();
+        //         break;
+        // }
+
+        Queue <int> new1= new Queue<int>();
+        new1.enqueue(5);
+        new1.enqueue(7);
+        new1.display();
+        new1.dequeue();
+        new1.dequeue();
+        new1.display();
+
+
+        Queue<string> new2=new Queue<string>();
+        new2.enqueue("Hello");
+        new2.display();
+        new2.enqueue("world");
+        new2.display();
+        new2.dequeue();
+        new2.display();
+    
+    }
 }
 }
