@@ -373,7 +373,7 @@ private static void Ds_MathHandler(int a, int b)
         Queue<string> new2=new Queue<string>();
         new2.enqueue("Hello");
         new2.display();
-        new2.enqueue("world");
+        new2.enqueue("There!");
         new2.display();
         new2.dequeue();
         new2.display();
